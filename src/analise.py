@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Carrega a planilha que você acabou de gerar
+# Carrega a planilha gerada
 df = pd.read_excel('data/redacoes_enem.xlsx')
 
 total_linhas = len(df)
